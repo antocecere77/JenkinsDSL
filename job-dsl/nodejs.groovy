@@ -1,4 +1,4 @@
-job('NodeJS example') {
+job('NodeJS example DSL') {
     scm {
         git('https://github.com/antocecere77/NodeJsCiCdWithJenkinsDocker.git') {  node -> // is hudson.plugins.git.GitSCM
             node / gitConfigName('antocecere')
