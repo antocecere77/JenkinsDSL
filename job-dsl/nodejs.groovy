@@ -13,6 +13,6 @@ job('NodeJS example DSL') {
                          // Manage Jenkins -> Configure Tools -> NodeJS Installations -> Name
     }
     steps {
-        shell("npm install")
+        batchFile("npm install")
     }
 }
